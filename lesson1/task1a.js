@@ -1,3 +1,2 @@
-var str = 'hello';
-str = str[0].toUpperCase() + str.substr(1);
-alert(str);
+var str = 'string 1';
+console.log(str.substr(0,1).toUpperCase() + str.substr(1));

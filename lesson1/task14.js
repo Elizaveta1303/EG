@@ -1,10 +1,9 @@
-function inArray(elemStr, arr) {
-    for (var i = 0; i < arr.length; i++) {
-    if (arr[i] == elemStr) {
-    return true;
-    }
+function inArray(text, array) {
+    for (var i = 0; i < array.length; i++) {
+      if (array[i] == text) 
+      return true;
     }
     return false;
-    }
-    
-    alert(inArray("квадрат", ["круг", "ромб", "квадрат", "треугольник"]));
+  }
+   
+  console.log(inArray('cat', ['meow', 'cat', 'dog']))

@@ -1,9 +1,9 @@
-var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-function reverseArr(arr) {
-var result = [];
-for (var i = arr.length - 1; i >= 0; i--) {
-result.push(arr[i]);
+var arr = [1, 2, 3, 4, 5];
+function reverse(arr) {
+    var arr_reverse = [];
+    for (var i = arr.length - 1; i >= 0; i--) {
+        arr_reverse.push(arr[i]);
+    }
+    return arr_reverse;
 }
-return result;
-}
-console.log(reverseArr(arr));
+console.log(reverse(arr));

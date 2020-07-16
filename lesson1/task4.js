@@ -1,6 +1,6 @@
 var str = 'index.html';
 if (str.substr(-5) == '.html') {
-	alert('Да');
+	console.log(true);
 } else {
-	alert('Нет');
+	console.log(false);
 }

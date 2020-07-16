@@ -1,5 +1,4 @@
-var str = 'hello';
+var str = 'string 2';
 str = str.split('');
 str[0] = str[0].toUpperCase();
-var result = str.join('');
-alert(result);
+console.log(str.join(''));

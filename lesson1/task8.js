@@ -1,11 +1,11 @@
-function arraySum (arr) {
+function Sum (arr) {
     var sum = 0;
     for (var i = 0; i < arr.length; i++) {
-    sum += arr[i];
-    if (sum > 10) {
-    return i + 1;
+        sum += arr[i];
+        if (sum > 10) {
+            return i + 1;
+        }
     }
-    }
-    }
+}
     
-    console.log(arraySum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+    console.log(Sum([1, 9, 3, 8, 5, 6]));

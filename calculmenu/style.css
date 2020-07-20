@@ -21,7 +21,7 @@ html {
   .box div{display:inline-block;}
   
   #container {
-    height: 650px;
+    height: 750px;
     width: 400px;
     margin: 50px auto;
     background:#b1c0fc;

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div id="container">
+        <form id="form">
+        <p>Размер вашей коробки</p>
+        <div class = "radio_buttons_container">
+            <input type="radio" name="size" id="small" value ="small" checked>
+            <label for="small">Маленький</label> <br>
+            <input type="radio" name="size" id="large" value ="large">
+            <label for="large">Большой</label>
+        </div>
+
+        <p>Основное наполнение вашей коробки</p>
+        <div class= "radio_buttons_container">
+            <input type="radio" name="base" id="noodles" value ="noodles" checked>
+            <label for=" noodles"> Лапша</label> <br>
+            
+            <input type="radio" name="base" id="rice" value ="rice">
+            <label for="rice">Рис</label>
+        </div> 
+
+        <p>Дополнительное наполнение вашей коробки</p>
+        <div class ="box">
+        <div class = "input_checkbox">
+          
+            <input type="checkbox" name="add" id="pork" value ="pork" checked>
+            <label for=" pork"> Свинина </label> <br>
+
+            <input type="checkbox" name="add" id="beef" value ="beef">
+            <label for="beef">Говядина </label> 
+        </div> 
+        <div class = "input_checkbox">
+            <input type="checkbox" name="add" id="chicken" value ="chicken">
+            <label for="chicken">Курица</label> <br>
+
+            <input type="checkbox" name="add" id="vegetables" value ="vegetables">
+            <label for="vegetables"> Овощи</label>
+
+            <input type="checkbox" name="add" id="shrimp" value ="shrimp">
+            <label for="shrimp"> Креветки</label>
+            
+        </div>
+        
+    </div>
+
+        <p>Вы хотите добавить что-то?</p>
+        <div class="input_checkbox">  
+                    <input type="checkbox" name="add" id="sesame" value="sesame">Кунжут <br>
+                    <input type="checkbox" name="add" id ="spicy_sauce" value="spicy_sauce">Острый соус       
+        </div>
+         <input type="submit" id = "calculate" value="Calculate">
+        <!-- <button type="button" id="calculate">Calculate!</button> -->
+        </form>
+    <!-- CALCULATOR end -->
+    <!-- TIPS start -->
+    <div id="expense">
+      <span id="prise">0.00</span><sup>₽</sup> <br>
+      <span id="calories">0</span> <small>Калории</small>
+      <span id="proteins">0</span> <small>Белки</small>
+      <span id="fats">0</span> <small>Жиры</small>
+      <span id="carbohydrates">0</span> <small>Углеводы</small>
+    </div>
+    <!-- TIPS end -->
+  </div>
+  <script src="calculmenu.js"></script>
+</body>
+</html>

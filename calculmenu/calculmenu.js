@@ -28,7 +28,7 @@ var wok ={
         fats:1,
         carbohydrates:38
      },
-     pig : {
+     pork : {
         prise:60,
         calories: 135,
         proteins:8,
@@ -36,7 +36,7 @@ var wok ={
         carbohydrates:19 
     },
 
-    meet : {
+    beef : {
         prise:80,
         calories:115,
         proteins:7,
@@ -111,7 +111,7 @@ var wok ={
         wok.result(this.prise,this.calories,this.proteins,this.fats,this.carbohydrates);
         
     },
-    result: function(prise,calories){
+    result: function(prise,calories, proteins, fats, carbohydrates){
         document.getElementById("prise").innerHTML = prise;
         document.getElementById("calories").innerHTML = calories;
         document.getElementById("proteins").innerHTML = proteins;
@@ -131,5 +131,5 @@ var wok ={
         e.preventDefault();
         var size_=document.querySelector('input[name="size"]:checked').value;
         var base_=document.querySelector('input[name="base"]:checked').value;
-        wok.calculate(size_, base_ );
+        wok.calculate(size_, base_);
     })

@@ -6,14 +6,7 @@ html {
   body {
     font-family: Roboto;
     background-size: 50px 50px;
-    background-color: #ddd;
-    background-image: -webkit-linear-gradient(transparent 50%, rgb(77, 219, 255) 50%, rgb(77, 104, 255)),
-                  -webkit-linear-gradient(0deg, transparent 50%, rgb(77, 219, 255) 50%, rgb(77, 104, 255));
-    background-image: -moz-linear-gradient(transparent 50%, rgb(77, 219, 255) 50%, rgb(77, 104, 255)),
-                  -moz-linear-gradient(0deg, transparent 50%, rgb(77, 219, 255) 50%, rgb(77, 104, 255));
-    background-image: linear-gradient(transparent 50%, rgb(77, 219, 255) 50%, rgb(77, 104, 255)),
-                  linear-gradient(90deg, transparent 50%, rgb(77, 219, 255) 50%, rgb(77, 104, 255));
-    display: flex;
+    background-color: rgb(39, 53, 252);
     justify-content: center;
   }
   .radio_buttons_container {
@@ -31,7 +24,7 @@ html {
     height: 650px;
     width: 400px;
     margin: 50px auto;
-    background:#f1efcd;
+    background:#b1c0fc;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     -webkit-border-radius: 20px;

@@ -1,12 +1,16 @@
 html {
     margin: 0;
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
   }
   body {
-    font-family: Roboto;
-    background-size: 50px 50px;
-    background-color: rgb(39, 53, 252);
+    height: 1000px;
+	background-image: url(fon.png);
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+    /*background: -webkit-linear-gradient(45deg, #e9af89, #c589d4);*/
+    display: flex;
     justify-content: center;
   }
   .radio_buttons_container {

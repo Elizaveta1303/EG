@@ -1,13 +1,15 @@
 html {
   margin: 0;
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
 }
 body {
-  font-family: Roboto;
-  background: #8e0e00;
-  background: -webkit-linear-gradient(to left, #0099f7, #f11712);
-  background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+  height: 1000px;
+background-image: url(fon.png);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+  /*background: -webkit-linear-gradient(45deg, #e9af89, #c589d4);*/
   display: flex;
   justify-content: center;
 }

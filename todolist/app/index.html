@@ -9,14 +9,27 @@
      </head>
   
     <body>
-  
+        <div id = data>
+				<script language="javascript" type="text/javascript">
+var d = new Date();
+
+var day=new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+
+var month=new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+
+document.write(day[d.getDay()]+", " +d.getDate()+ " " + month[d.getMonth()]
++ " " + d.getFullYear() + " ");
+</script>
+</div>
         <div id = "todo">
             <h1> My awesome todo <i id="pencil" class="fas fa-pencil-alt"></i> </h1>
   
             <input type = "text" placeholder="Type your task">
+            
   
             <ul class="todos">
-                <li><span><i class="fas fa-trash-alt"></i></span>Feed the cat ^_^</li>
+                <li><span><i class="fas fa-trash-alt"></i></span>Take a walk with the dog!</li>
+            
             </ul>
   
             <div id= "buttons">
@@ -29,13 +42,13 @@
         <div id = "overlay">
            <a href="javascript:void(0)" class="closebtn">&times;</a>
            <ul class="tips">
-               <li>Click on the pencil to hide or show input area</li>
-               <li>Type text into input area and press enter to add todo to list</li>
-               <li>Hover over the todo and click the on trash can to delete</li>
-               <li>Click the clear button to clear all todos from list</li>
-               <li>Click the Save button to save your todos to access them later even if you exit the browser </li>
+               <li>Click on the pencil to hide or show input area.</li>
+               <li>Type text into input area and press enter to add todo to list.</li>
+               <li>Hover over the todo and click the on trash can to delete.</li>
+               <li>Click the clear button to clear all todos from list.</li>
+               <li>Click the Save button to save your todos to access them later even if you exit the browser.</li>
             </ul>
-            
         </div>
+
         <script src="./scripts/main.min.js"></script>
     </body>
